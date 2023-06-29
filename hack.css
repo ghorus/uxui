@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    background-color: #D7FFFA;
+}
+header {
+    text-align: center;
+    font-size: 2.7rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 20px;
+    width: 100vw;
+}
+.sect-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.two-sects {
+    display: flex;
+    flex-direction: column;
+}
+.images-cont {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.content-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+section {
+    width: 80%;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Roboto Mono', monospace;
+}
+.title {
+    font-weight: bold;
+    margin: 30px 0px;
+}
+.after-headers {
+    margin:50px 0px;
+}
+.painpoints {
+    width: 85%;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.vid-sect {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.color-pals {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0px;
+}
+.closeups-img {
+    margin: 40px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.result {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width:1000px) {
+    .two-sects {
+        flex-direction: row;
+    }
+    .painpoints {
+        width: 25%;
+    }
+   .accounts {
+        width: 22%;
+   }
+   .pain-cont {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100vw;
+   }
+   .left-right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   }
+   .color-ai-container {
+    width: 40%;
+   }
+   .color-pals {
+   width: 40%;
+   }
+   .div1 {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+   }
+   .mock-img {
+    width: 20%;
+   }
+   .cmpgn-imgvid {
+    width: 60%;
+   }
+}
